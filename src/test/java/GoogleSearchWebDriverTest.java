@@ -25,7 +25,7 @@ public class GoogleSearchWebDriverTest {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
-    //firest test
+    //first test
     @Test
     public void testGoogleSearch () {
         GoogleStartPage startPage = new GoogleStartPage(driver);
