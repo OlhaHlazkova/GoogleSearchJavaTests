@@ -13,8 +13,6 @@ public class SeleniumIDESearchTest {
   private StringBuffer verificationErrors = new StringBuffer();
 
 
-  //private Selenium  q;
-
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
 
